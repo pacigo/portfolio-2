@@ -1,114 +1,93 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    color: rgb(22, 77, 75);
-    padding-top: 70px;
-}
-
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: white;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.menu-item {
-    color: rgb(84, 32, 114);
-    padding: 10px;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 20px;
-}
-
-.menu-item:hover {
-    background-color: #ddd;
-    transition: all 0.4s ease-in-out;
-}
-
-header {
-    background-color: #0e5e57;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-section {
-    padding: 20px;
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
-}
-
-#acerca-de-mi {
-    text-align: justify;
-  }
-
-#habilidades ul {
-    list-style: none;
-    padding: 0;
-}
-
-#habilidades li {
-    display: inline-block;
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    margin-right: 10px;
-}
-
-#experiencias ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#experiencias ul li {
-    margin-bottom: 10px;
-}
-
-#proyectos ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#proyectos a {
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: none;
+    position: cover;
+    background-image: none;  
+    background-color: black;  
     color: #333;
 }
-
-#proyectos a:hover {
-    text-decoration: underline;
-}
-
-#sociales {
-    list-style: none;
-    padding: 0;
-    margin-top: 10px;
-}
-
-#sociales li {
-    list-style: none;
-    display: inline-block;
-    padding: 5px;
-    font-size: 30px;
-}
-
-.fa {
-    color: #204e56;
-    text-decoration: none;
-    margin-left: 0px;
-}
-
-footer {
-    background-color: #184e4c;
-    color: #fff;
+  
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
     text-align: center;
-    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+  
+#guess-input {
+    display: block;
+    margin: 0 auto 10px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+    position: relative;
+    z-index: 2;
+}
+  
+#guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #23e0cd;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+#guess-button:hover {
+    background-color: #1ab3a0;
+}
+  
+button:active {
+    transform: scale(0.95);
+}
+  
+.letter {
+    border-radius: 5px;
+    padding: 10px; 
+    margin: 5px; 
+    min-width: 18px; 
+    min-height: 18px; 
+    font-size: 20px; 
+    text-align: center;
+    display: inline-block;
+}
+
+.letter:hover {
+    transform: scale(1.1);
+}
+  
+.row {
+    margin-bottom: 10px;
+    text-align: center;
+}
+  
+#grid {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+#guesses {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+
+}
+  
+.input-area {
+    margin: 30px;
+}
+  
   
